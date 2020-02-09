@@ -4,8 +4,8 @@
 @using WishList.Models.Item
 @model List<WishList.Models.Item>
 
-<h1><a asp-action="create">Add item</a></h1>
-
+    <h1>Wishlist</h1>
+<a asp-action="create">Add item</a>
 <ul>
     @foreach (var item in Model)
     {
